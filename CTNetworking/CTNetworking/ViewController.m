@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"bhlin1");
+    NSLog(@"bhlin2");
+    NSLog(@"bhlin2");
 }
 
 
