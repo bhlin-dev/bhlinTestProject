@@ -15,22 +15,6 @@
 		190015B621359297004B0DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015B521359297004B0DE5 /* main.m */; };
 		190015C021359298004B0DE5 /* CTNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015BF21359298004B0DE5 /* CTNetworkingTests.m */; };
 		190015CB21359298004B0DE5 /* CTNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015CA21359298004B0DE5 /* CTNetworkingUITests.m */; };
-		190015E12135958C004B0DE5 /* EncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DB2135958B004B0DE5 /* EncryptManager.m */; };
-		190015E22135958C004B0DE5 /* EncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DB2135958B004B0DE5 /* EncryptManager.m */; };
-		190015E32135958C004B0DE5 /* CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DD2135958B004B0DE5 /* CTEncrypt.m */; };
-		190015E42135958C004B0DE5 /* CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DD2135958B004B0DE5 /* CTEncrypt.m */; };
-		190015E52135958C004B0DE5 /* BRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DF2135958C004B0DE5 /* BRSA.m */; };
-		190015E62135958C004B0DE5 /* BRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DF2135958C004B0DE5 /* BRSA.m */; };
-		190015E72135958C004B0DE5 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 190015E02135958C004B0DE5 /* public_key.der */; };
-		190015E82135958C004B0DE5 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 190015E02135958C004B0DE5 /* public_key.der */; };
-		190015EB2135982D004B0DE5 /* WLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EA2135982D004B0DE5 /* WLEncrypt.m */; };
-		190015EC2135982D004B0DE5 /* WLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EA2135982D004B0DE5 /* WLEncrypt.m */; };
-		190015F021359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */; };
-		190015F121359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */; };
-		190015F4213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */; };
-		190015F5213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */; };
-		190015FA21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */; };
-		190015FB21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,21 +51,6 @@
 		190015C621359298004B0DE5 /* CTNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		190015CA21359298004B0DE5 /* CTNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTNetworkingUITests.m; sourceTree = "<group>"; };
 		190015CC21359298004B0DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		190015DA2135958B004B0DE5 /* EncryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptManager.h; sourceTree = "<group>"; };
-		190015DB2135958B004B0DE5 /* EncryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptManager.m; sourceTree = "<group>"; };
-		190015DC2135958B004B0DE5 /* CTEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEncrypt.h; sourceTree = "<group>"; };
-		190015DD2135958B004B0DE5 /* CTEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEncrypt.m; sourceTree = "<group>"; };
-		190015DE2135958B004B0DE5 /* BRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSA.h; sourceTree = "<group>"; };
-		190015DF2135958C004B0DE5 /* BRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSA.m; sourceTree = "<group>"; };
-		190015E02135958C004B0DE5 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
-		190015E92135982D004B0DE5 /* WLEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLEncrypt.h; sourceTree = "<group>"; };
-		190015EA2135982D004B0DE5 /* WLEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLEncrypt.m; sourceTree = "<group>"; };
-		190015EE21359932004B0DE5 /* SDNetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDNetworkActivityIndicator.h; sourceTree = "<group>"; };
-		190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDNetworkActivityIndicator.m; sourceTree = "<group>"; };
-		190015F2213599B3004B0DE5 /* WLEncrypt+Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLEncrypt+Algorithm.h"; sourceTree = "<group>"; };
-		190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WLEncrypt+Algorithm.m"; sourceTree = "<group>"; };
-		190015F821359BDC004B0DE5 /* NSString+CTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CTEncrypt.h"; sourceTree = "<group>"; };
-		190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CTEncrypt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +101,6 @@
 		190015A521359293004B0DE5 /* CTNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				190015D821359348004B0DE5 /* CTWNetWorking */,
 				190015A621359293004B0DE5 /* AppDelegate.h */,
 				190015A721359293004B0DE5 /* AppDelegate.m */,
 				190015A921359293004B0DE5 /* ViewController.h */,
@@ -162,68 +130,6 @@
 				190015CC21359298004B0DE5 /* Info.plist */,
 			);
 			path = CTNetworkingUITests;
-			sourceTree = "<group>";
-		};
-		190015D821359348004B0DE5 /* CTWNetWorking */ = {
-			isa = PBXGroup;
-			children = (
-				190015F621359B69004B0DE5 /* Categories */,
-				190015ED21359932004B0DE5 /* ActivityIndicator */,
-				190015D921359544004B0DE5 /* Encrypt */,
-			);
-			path = CTWNetWorking;
-			sourceTree = "<group>";
-		};
-		190015D921359544004B0DE5 /* Encrypt */ = {
-			isa = PBXGroup;
-			children = (
-				190015DE2135958B004B0DE5 /* BRSA.h */,
-				190015DF2135958C004B0DE5 /* BRSA.m */,
-				190015DC2135958B004B0DE5 /* CTEncrypt.h */,
-				190015DD2135958B004B0DE5 /* CTEncrypt.m */,
-				190015DA2135958B004B0DE5 /* EncryptManager.h */,
-				190015DB2135958B004B0DE5 /* EncryptManager.m */,
-				190015E92135982D004B0DE5 /* WLEncrypt.h */,
-				190015EA2135982D004B0DE5 /* WLEncrypt.m */,
-				190015F2213599B3004B0DE5 /* WLEncrypt+Algorithm.h */,
-				190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */,
-				190015E02135958C004B0DE5 /* public_key.der */,
-			);
-			path = Encrypt;
-			sourceTree = "<group>";
-		};
-		190015ED21359932004B0DE5 /* ActivityIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				190015EE21359932004B0DE5 /* SDNetworkActivityIndicator.h */,
-				190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */,
-			);
-			path = ActivityIndicator;
-			sourceTree = "<group>";
-		};
-		190015F621359B69004B0DE5 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				190015FC21359CBE004B0DE5 /* Data */,
-				190015F721359B87004B0DE5 /* String */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		190015F721359B87004B0DE5 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				190015F821359BDC004B0DE5 /* NSString+CTEncrypt.h */,
-				190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */,
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
-		190015FC21359CBE004B0DE5 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +237,6 @@
 			files = (
 				190015B321359297004B0DE5 /* LaunchScreen.storyboard in Resources */,
 				190015B021359297004B0DE5 /* Assets.xcassets in Resources */,
-				190015E72135958C004B0DE5 /* public_key.der in Resources */,
 				190015AE21359293004B0DE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190015E82135958C004B0DE5 /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +264,7 @@
 			files = (
 				190015AB21359293004B0DE5 /* ViewController.m in Sources */,
 				190015B621359297004B0DE5 /* main.m in Sources */,
-				190015F021359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */,
-				190015E32135958C004B0DE5 /* CTEncrypt.m in Sources */,
-				190015FA21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */,
-				190015F4213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */,
 				190015A821359293004B0DE5 /* AppDelegate.m in Sources */,
-				190015E12135958C004B0DE5 /* EncryptManager.m in Sources */,
-				190015EB2135982D004B0DE5 /* WLEncrypt.m in Sources */,
-				190015E52135958C004B0DE5 /* BRSA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,14 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190015E42135958C004B0DE5 /* CTEncrypt.m in Sources */,
-				190015F5213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */,
-				190015E62135958C004B0DE5 /* BRSA.m in Sources */,
-				190015F121359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */,
 				190015C021359298004B0DE5 /* CTNetworkingTests.m in Sources */,
-				190015EC2135982D004B0DE5 /* WLEncrypt.m in Sources */,
-				190015FB21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */,
-				190015E22135958C004B0DE5 /* EncryptManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
