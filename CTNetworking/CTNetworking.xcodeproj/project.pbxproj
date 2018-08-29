@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190015A821359293004B0DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015A721359293004B0DE5 /* AppDelegate.m */; };
+		190015AB21359293004B0DE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015AA21359293004B0DE5 /* ViewController.m */; };
+		190015AE21359293004B0DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190015AC21359293004B0DE5 /* Main.storyboard */; };
+		190015B021359297004B0DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190015AF21359297004B0DE5 /* Assets.xcassets */; };
+		190015B321359297004B0DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190015B121359297004B0DE5 /* LaunchScreen.storyboard */; };
+		190015B621359297004B0DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015B521359297004B0DE5 /* main.m */; };
+		190015C021359298004B0DE5 /* CTNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015BF21359298004B0DE5 /* CTNetworkingTests.m */; };
+		190015CB21359298004B0DE5 /* CTNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015CA21359298004B0DE5 /* CTNetworkingUITests.m */; };
+		190015E12135958C004B0DE5 /* EncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DB2135958B004B0DE5 /* EncryptManager.m */; };
+		190015E22135958C004B0DE5 /* EncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DB2135958B004B0DE5 /* EncryptManager.m */; };
+		190015E32135958C004B0DE5 /* CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DD2135958B004B0DE5 /* CTEncrypt.m */; };
+		190015E42135958C004B0DE5 /* CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DD2135958B004B0DE5 /* CTEncrypt.m */; };
+		190015E52135958C004B0DE5 /* BRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DF2135958C004B0DE5 /* BRSA.m */; };
+		190015E62135958C004B0DE5 /* BRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015DF2135958C004B0DE5 /* BRSA.m */; };
+		190015E72135958C004B0DE5 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 190015E02135958C004B0DE5 /* public_key.der */; };
+		190015E82135958C004B0DE5 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 190015E02135958C004B0DE5 /* public_key.der */; };
+		190015EB2135982D004B0DE5 /* WLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EA2135982D004B0DE5 /* WLEncrypt.m */; };
+		190015EC2135982D004B0DE5 /* WLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EA2135982D004B0DE5 /* WLEncrypt.m */; };
+		190015F021359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */; };
+		190015F121359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */; };
+		190015F4213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */; };
+		190015F5213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */; };
+		190015FA21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */; };
+		190015FB21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190015BC21359298004B0DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1900159B21359293004B0DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190015A221359293004B0DE5;
+			remoteInfo = CTNetworking;
+		};
+		190015C721359298004B0DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1900159B21359293004B0DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190015A221359293004B0DE5;
+			remoteInfo = CTNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190015A321359293004B0DE5 /* CTNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190015A621359293004B0DE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		190015A721359293004B0DE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		190015A921359293004B0DE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		190015AA21359293004B0DE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		190015AD21359293004B0DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		190015AF21359297004B0DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190015B221359297004B0DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		190015B421359297004B0DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190015B521359297004B0DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		190015BB21359298004B0DE5 /* CTNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190015BF21359298004B0DE5 /* CTNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTNetworkingTests.m; sourceTree = "<group>"; };
+		190015C121359298004B0DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190015C621359298004B0DE5 /* CTNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190015CA21359298004B0DE5 /* CTNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTNetworkingUITests.m; sourceTree = "<group>"; };
+		190015CC21359298004B0DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190015DA2135958B004B0DE5 /* EncryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptManager.h; sourceTree = "<group>"; };
+		190015DB2135958B004B0DE5 /* EncryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptManager.m; sourceTree = "<group>"; };
+		190015DC2135958B004B0DE5 /* CTEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEncrypt.h; sourceTree = "<group>"; };
+		190015DD2135958B004B0DE5 /* CTEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEncrypt.m; sourceTree = "<group>"; };
+		190015DE2135958B004B0DE5 /* BRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSA.h; sourceTree = "<group>"; };
+		190015DF2135958C004B0DE5 /* BRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSA.m; sourceTree = "<group>"; };
+		190015E02135958C004B0DE5 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		190015E92135982D004B0DE5 /* WLEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLEncrypt.h; sourceTree = "<group>"; };
+		190015EA2135982D004B0DE5 /* WLEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLEncrypt.m; sourceTree = "<group>"; };
+		190015EE21359932004B0DE5 /* SDNetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDNetworkActivityIndicator.h; sourceTree = "<group>"; };
+		190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDNetworkActivityIndicator.m; sourceTree = "<group>"; };
+		190015F2213599B3004B0DE5 /* WLEncrypt+Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLEncrypt+Algorithm.h"; sourceTree = "<group>"; };
+		190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WLEncrypt+Algorithm.m"; sourceTree = "<group>"; };
+		190015F821359BDC004B0DE5 /* NSString+CTEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CTEncrypt.h"; sourceTree = "<group>"; };
+		190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CTEncrypt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190015A021359293004B0DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190015B821359298004B0DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190015C321359298004B0DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1900159A21359293004B0DE5 = {
+			isa = PBXGroup;
+			children = (
+				190015A521359293004B0DE5 /* CTNetworking */,
+				190015BE21359298004B0DE5 /* CTNetworkingTests */,
+				190015C921359298004B0DE5 /* CTNetworkingUITests */,
+				190015A421359293004B0DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190015A421359293004B0DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190015A321359293004B0DE5 /* CTNetworking.app */,
+				190015BB21359298004B0DE5 /* CTNetworkingTests.xctest */,
+				190015C621359298004B0DE5 /* CTNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190015A521359293004B0DE5 /* CTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				190015D821359348004B0DE5 /* CTWNetWorking */,
+				190015A621359293004B0DE5 /* AppDelegate.h */,
+				190015A721359293004B0DE5 /* AppDelegate.m */,
+				190015A921359293004B0DE5 /* ViewController.h */,
+				190015AA21359293004B0DE5 /* ViewController.m */,
+				190015AC21359293004B0DE5 /* Main.storyboard */,
+				190015AF21359297004B0DE5 /* Assets.xcassets */,
+				190015B121359297004B0DE5 /* LaunchScreen.storyboard */,
+				190015B421359297004B0DE5 /* Info.plist */,
+				190015B521359297004B0DE5 /* main.m */,
+			);
+			path = CTNetworking;
+			sourceTree = "<group>";
+		};
+		190015BE21359298004B0DE5 /* CTNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				190015BF21359298004B0DE5 /* CTNetworkingTests.m */,
+				190015C121359298004B0DE5 /* Info.plist */,
+			);
+			path = CTNetworkingTests;
+			sourceTree = "<group>";
+		};
+		190015C921359298004B0DE5 /* CTNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				190015CA21359298004B0DE5 /* CTNetworkingUITests.m */,
+				190015CC21359298004B0DE5 /* Info.plist */,
+			);
+			path = CTNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		190015D821359348004B0DE5 /* CTWNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				190015F621359B69004B0DE5 /* Categories */,
+				190015ED21359932004B0DE5 /* ActivityIndicator */,
+				190015D921359544004B0DE5 /* Encrypt */,
+			);
+			path = CTWNetWorking;
+			sourceTree = "<group>";
+		};
+		190015D921359544004B0DE5 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				190015DE2135958B004B0DE5 /* BRSA.h */,
+				190015DF2135958C004B0DE5 /* BRSA.m */,
+				190015DC2135958B004B0DE5 /* CTEncrypt.h */,
+				190015DD2135958B004B0DE5 /* CTEncrypt.m */,
+				190015DA2135958B004B0DE5 /* EncryptManager.h */,
+				190015DB2135958B004B0DE5 /* EncryptManager.m */,
+				190015E92135982D004B0DE5 /* WLEncrypt.h */,
+				190015EA2135982D004B0DE5 /* WLEncrypt.m */,
+				190015F2213599B3004B0DE5 /* WLEncrypt+Algorithm.h */,
+				190015F3213599B3004B0DE5 /* WLEncrypt+Algorithm.m */,
+				190015E02135958C004B0DE5 /* public_key.der */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		190015ED21359932004B0DE5 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				190015EE21359932004B0DE5 /* SDNetworkActivityIndicator.h */,
+				190015EF21359932004B0DE5 /* SDNetworkActivityIndicator.m */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		190015F621359B69004B0DE5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				190015FC21359CBE004B0DE5 /* Data */,
+				190015F721359B87004B0DE5 /* String */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		190015F721359B87004B0DE5 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				190015F821359BDC004B0DE5 /* NSString+CTEncrypt.h */,
+				190015F921359BDC004B0DE5 /* NSString+CTEncrypt.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		190015FC21359CBE004B0DE5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190015A221359293004B0DE5 /* CTNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190015CF21359298004B0DE5 /* Build configuration list for PBXNativeTarget "CTNetworking" */;
+			buildPhases = (
+				1900159F21359293004B0DE5 /* Sources */,
+				190015A021359293004B0DE5 /* Frameworks */,
+				190015A121359293004B0DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTNetworking;
+			productName = CTNetworking;
+			productReference = 190015A321359293004B0DE5 /* CTNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		190015BA21359298004B0DE5 /* CTNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190015D221359298004B0DE5 /* Build configuration list for PBXNativeTarget "CTNetworkingTests" */;
+			buildPhases = (
+				190015B721359298004B0DE5 /* Sources */,
+				190015B821359298004B0DE5 /* Frameworks */,
+				190015B921359298004B0DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190015BD21359298004B0DE5 /* PBXTargetDependency */,
+			);
+			name = CTNetworkingTests;
+			productName = CTNetworkingTests;
+			productReference = 190015BB21359298004B0DE5 /* CTNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		190015C521359298004B0DE5 /* CTNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190015D521359298004B0DE5 /* Build configuration list for PBXNativeTarget "CTNetworkingUITests" */;
+			buildPhases = (
+				190015C221359298004B0DE5 /* Sources */,
+				190015C321359298004B0DE5 /* Frameworks */,
+				190015C421359298004B0DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190015C821359298004B0DE5 /* PBXTargetDependency */,
+			);
+			name = CTNetworkingUITests;
+			productName = CTNetworkingUITests;
+			productReference = 190015C621359298004B0DE5 /* CTNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1900159B21359293004B0DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = bhlin;
+				TargetAttributes = {
+					190015A221359293004B0DE5 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					190015BA21359298004B0DE5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 190015A221359293004B0DE5;
+					};
+					190015C521359298004B0DE5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 190015A221359293004B0DE5;
+					};
+				};
+			};
+			buildConfigurationList = 1900159E21359293004B0DE5 /* Build configuration list for PBXProject "CTNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1900159A21359293004B0DE5;
+			productRefGroup = 190015A421359293004B0DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190015A221359293004B0DE5 /* CTNetworking */,
+				190015BA21359298004B0DE5 /* CTNetworkingTests */,
+				190015C521359298004B0DE5 /* CTNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190015A121359293004B0DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190015B321359297004B0DE5 /* LaunchScreen.storyboard in Resources */,
+				190015B021359297004B0DE5 /* Assets.xcassets in Resources */,
+				190015E72135958C004B0DE5 /* public_key.der in Resources */,
+				190015AE21359293004B0DE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190015B921359298004B0DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190015E82135958C004B0DE5 /* public_key.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190015C421359298004B0DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1900159F21359293004B0DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190015AB21359293004B0DE5 /* ViewController.m in Sources */,
+				190015B621359297004B0DE5 /* main.m in Sources */,
+				190015F021359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */,
+				190015E32135958C004B0DE5 /* CTEncrypt.m in Sources */,
+				190015FA21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */,
+				190015F4213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */,
+				190015A821359293004B0DE5 /* AppDelegate.m in Sources */,
+				190015E12135958C004B0DE5 /* EncryptManager.m in Sources */,
+				190015EB2135982D004B0DE5 /* WLEncrypt.m in Sources */,
+				190015E52135958C004B0DE5 /* BRSA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190015B721359298004B0DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190015E42135958C004B0DE5 /* CTEncrypt.m in Sources */,
+				190015F5213599B3004B0DE5 /* WLEncrypt+Algorithm.m in Sources */,
+				190015E62135958C004B0DE5 /* BRSA.m in Sources */,
+				190015F121359933004B0DE5 /* SDNetworkActivityIndicator.m in Sources */,
+				190015C021359298004B0DE5 /* CTNetworkingTests.m in Sources */,
+				190015EC2135982D004B0DE5 /* WLEncrypt.m in Sources */,
+				190015FB21359BDC004B0DE5 /* NSString+CTEncrypt.m in Sources */,
+				190015E22135958C004B0DE5 /* EncryptManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190015C221359298004B0DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190015CB21359298004B0DE5 /* CTNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190015BD21359298004B0DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190015A221359293004B0DE5 /* CTNetworking */;
+			targetProxy = 190015BC21359298004B0DE5 /* PBXContainerItemProxy */;
+		};
+		190015C821359298004B0DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190015A221359293004B0DE5 /* CTNetworking */;
+			targetProxy = 190015C721359298004B0DE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		190015AC21359293004B0DE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190015AD21359293004B0DE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		190015B121359297004B0DE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190015B221359297004B0DE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190015CD21359298004B0DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		190015CE21359298004B0DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190015D021359298004B0DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CTNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lindev.CTNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		190015D121359298004B0DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CTNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lindev.CTNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		190015D321359298004B0DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CTNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lindev.CTNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTNetworking.app/CTNetworking";
+			};
+			name = Debug;
+		};
+		190015D421359298004B0DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CTNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lindev.CTNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTNetworking.app/CTNetworking";
+			};
+			name = Release;
+		};
+		190015D621359298004B0DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CTNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lindev.CTNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CTNetworking;
+			};
+			name = Debug;
+		};
+		190015D721359298004B0DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CTNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lindev.CTNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CTNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1900159E21359293004B0DE5 /* Build configuration list for PBXProject "CTNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190015CD21359298004B0DE5 /* Debug */,
+				190015CE21359298004B0DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190015CF21359298004B0DE5 /* Build configuration list for PBXNativeTarget "CTNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190015D021359298004B0DE5 /* Debug */,
+				190015D121359298004B0DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190015D221359298004B0DE5 /* Build configuration list for PBXNativeTarget "CTNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190015D321359298004B0DE5 /* Debug */,
+				190015D421359298004B0DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190015D521359298004B0DE5 /* Build configuration list for PBXNativeTarget "CTNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190015D621359298004B0DE5 /* Debug */,
+				190015D721359298004B0DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1900159B21359293004B0DE5 /* Project object */;
+}
