@@ -4,7 +4,7 @@
 target 'CTNetworking' do
 
 pod 'AFNetworking', '~> 3.0'
-pod 'MJRefresh'
+# pod 'MJRefresh'
 
 
 end
